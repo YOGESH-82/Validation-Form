@@ -38,7 +38,7 @@ function validateName() {
         nameError.innerHTML = 'full name!';
         return false;
     }
-    nameError.innerHTML = '<img src="./asset/check.png" class="check"></img>';
+    nameError.innerHTML = '<img src="check.png" class="check"></img>';
     return true;
 }
 
@@ -58,7 +58,7 @@ function validatePhone() {
         return false;
     }
 
-    phoneError.innerHTML = '<img src="./asset/check.png" class="check"></img>';
+    phoneError.innerHTML = '<img src="check.png" class="check"></img>';
     return true;
 }
 
@@ -74,7 +74,7 @@ function validateEmail() {
         emailError.innerHTML = 'Invalid email';
         return false;
     }
-    emailError.innerHTML = '<img src="./asset/check.png" class="check"></img>';
+    emailError.innerHTML = '<img src="check.png" class="check"></img>';
     return true;
 }
 
@@ -89,7 +89,7 @@ function validateMessage() {
         return false;
     }
 
-    messageError.innerHTML = '<img src="./asset/check.png" class="check"></img>';
+    messageError.innerHTML = '<img src="check.png" class="check"></img>';
     return true;
 }
 
